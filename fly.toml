@@ -3,8 +3,8 @@
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "lirenda"
-primary_region = "sjc"
+app = "meiguo-masazhuzhou-boshidun"
+primary_region = "bos"
 
 kill_signal = "SIGINT"
 kill_timeout = 5
