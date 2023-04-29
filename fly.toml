@@ -17,8 +17,6 @@ processes = []
   auto_rollback = true
 
 [mounts]
-  destination = "/dashboard/data"
-  source = "hjkdsaa_data"
 
 [[services]]
   http_checks = []
