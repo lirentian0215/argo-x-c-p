@@ -3,8 +3,8 @@
 # See https://fly.io/docs/reference/configuration/ for information about how to use this file.
 #
 
-app = "meiguo-masazhuzhou-boshidun"
-primary_region = "bos"
+app = "lirenda"
+primary_region = "sjc"
 
 kill_signal = "SIGINT"
 kill_timeout = 5
@@ -17,6 +17,8 @@ processes = []
   auto_rollback = true
 
 [mounts]
+  destination = "/dashboard/data"
+  source = "nz_data"
 
 [[services]]
   http_checks = []
